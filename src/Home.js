@@ -1,13 +1,13 @@
 import React from "react"
 import BlogList from "./BlogList"
 import Search from "./Search"
-import useState from  'react-router-dom'
+import {useState}  from  'react'
 
 const Home=()=>{
   const [blogs, setBlogs] =useState ([
     {title:"New Twitter Face",author:"Yoshi",id:1},
     {title:"Mars Journey",author:"Mario",id:2},
-    {title:"A Part Together",author:"Yoshi",id:2} 
+    {title:"A Part Together",author:"Yoshi",id:3} 
   ]) 
   
 
