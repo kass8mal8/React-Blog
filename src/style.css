@@ -24,3 +24,11 @@ p {
    background: royalblue;
    margin-left: -4px;
 }
+button{
+  background: crimson;
+  outline: none;
+  border:1px solid crimson;
+  color:whitesmoke;
+  height: 25px;
+  border-radius: 3px;
+}

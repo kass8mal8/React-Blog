@@ -9,10 +9,14 @@ const Home=()=>{
     {title:"A Part Together",author:"Yoshi",id:2}
 
   ]
+
+  const handleDelete=(id)=>{
+    blogs.filter(blog=> blog.id !== id)
+  }
   return (
     <div>
       <Search />
-      <BlogList blogs={blogs} />
+      <BlogList blogs={blogs} handleDelete={handleDelete} />
     </div>
   )
 }
