@@ -7,7 +7,8 @@ const Blogs=()=>{
   const [blogs, setBlogs] =useState ([
     {title:"New Twitter Face",author:"Yoshi",id:1},
     {title:"Mars Journey",author:"Mario",id:2},
-    {title:"A Part Together",author:"Yoshi",id:3} 
+    {title:"Things Falling Appart",author:"Ito",id:3},
+    {title:"A Part Together",author:"Yoshi",id:4} 
   ]) 
   
 
