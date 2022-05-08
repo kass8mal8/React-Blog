@@ -1,7 +1,7 @@
 import React from "react"
 import BlogList from "./BlogList"
 import Search from "./Search"
-import useState from  'rect-router-dom'
+import useState from  'react-router-dom'
 
 const Home=()=>{
   const [blogs, setBlogs] =useState ([
