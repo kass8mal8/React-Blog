@@ -6,15 +6,14 @@ import {BrowserRouter,Routes, Route } from "react-router-dom"
 
 export default function App() {
   return (
-    <BrowserRouter>
     <div>
+    <BrowserRouter>
        <Routes>
           <Route path="/" element={ <Home />} />
       <Route path="/blogs" element={ <Blogs />} />
 
        </Routes>
-       
-    </div>
     </BrowserRouter>
+    </div>
   );
 }
