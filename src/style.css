@@ -36,3 +36,8 @@ p {
   float:right;
   margin-top: -33px;
 }
+a{
+  text-decoration: none;
+  margin: auto 5px;
+
+}
