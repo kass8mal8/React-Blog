@@ -57,14 +57,12 @@ a{
     font-weight: bold;
     color:whitesmoke;
 }
- section {
-  margin-top: 0px;
-}
 .homeDiv{
   background:#ccc;
   padding:5px;
-  margin: auto -7px;
+  margin: auto -8px;
   font-family: fantasy;
+  padding-bottom: 20px;
 }
 @media screen and (min-width:420px){
      .searchBlog input{
