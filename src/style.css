@@ -66,6 +66,12 @@ a{
  section {
   margin-top: 0px;
 }
+.homeDiv{
+  background:whitesmoke;
+  padding:5px;
+  margin: auto -7px;
+
+}
 @media screen and (min-width:420px){
      .searchBlog input{
         width: 81vw;
