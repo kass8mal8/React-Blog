@@ -24,7 +24,8 @@ body{
 .searchBlog button{
    color: whitesmoke;
    border: 1px solid darkblue;
-   border-radius: 3px;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
    height: 34px;
    background: darkblue;
    margin-left: -4px;
