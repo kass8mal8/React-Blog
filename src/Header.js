@@ -6,7 +6,7 @@
    return(
      <div className=" homePage">
        <header>
-        React Project
+        React-Blog
          <Link to="/blogs">Blog</Link>
          <Link to="/">Home |</Link>
         </header>
