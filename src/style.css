@@ -57,6 +57,10 @@ a{
     font-weight: bold;
     color:whitesmoke;
 }
+.imageDiv{
+  display:flex;
+  flex-flow: row;
+}
 .homeDiv{
   background:#ccc;
   padding:5px;
