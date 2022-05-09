@@ -8,10 +8,9 @@ export default function App() {
   return (
     <div>
     <BrowserRouter>
+       <Home />
        <Routes>
-          <Route path="/" element={ <Home />} />
-      <Route path="/blogs" element={ <Blogs />} />
-
+         <Route path="/blogs" element={ <Blogs />} />
        </Routes>
     </BrowserRouter>
     </div>

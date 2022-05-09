@@ -38,6 +38,17 @@ p {
 }
 a{
   text-decoration: none;
-  margin: auto 5px;
-
+  margin-right: 5px;
+  color: whitesmoke;
+  float: right;
+  position: relative;
+  right: 6px;
+}
+.homePage{
+    background: royalblue;
+    width: 100vw;
+    height:5vh;
+    margin-left: -10px;
+    padding: 10px;
+    margin-top: -10px;
 }
