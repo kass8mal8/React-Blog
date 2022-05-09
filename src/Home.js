@@ -1,4 +1,5 @@
 import React, {Link} from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Home=()=>{
   return(
     <div className="homeDiv">
