@@ -16,7 +16,7 @@ p {
    border-radius: 3px;
    height:30px;
    margin-top: 50px;
-   width: 75vw;
+   width: 72vw;
 }
 .searchBlog button{
    color: whitesmoke;
@@ -34,6 +34,7 @@ p {
   color:whitesmoke;
   height: 25px;
   border-radius: 3px;
+  margin:5px auto;
 }
 .addBlog button{
   float:right;

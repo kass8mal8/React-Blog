@@ -5,9 +5,9 @@ import {useState}  from  'react'
 
 const Blogs=()=>{
   const [blogs, setBlogs] =useState ([
-    {title:"New Twitter Face",author:"Yoshi",id:1},
-    {title:"Mars Journey",author:"Mario",id:2},
-    {title:"Things Falling Apart",author:"Ito",id:3},
+    {title:"React Day 1:Youtube Videos. ",author:"Yoshi",id:1},
+    {title:"React Day 2:Sololearn Tutorials. ",author:"Mario",id:2},
+    {title:"React Day 3:Pdf Tutorials.",author:"Ito",id:3},
     {title:"A Part Together",author:"Yoshi",id:4} 
   ]) 
   
