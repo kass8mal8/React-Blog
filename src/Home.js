@@ -7,8 +7,7 @@
      <div className=" homePage">
        <header>
          React Project
-         <Link to="/portfolio">Portfolio</Link>
-         <Link to="/blogs">Blog |</Link>
+         <Link to="/blogs">Blog</Link>
          <Link to="/">Home |</Link>
         </header>
      </div>
