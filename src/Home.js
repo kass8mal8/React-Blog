@@ -5,8 +5,11 @@
  const Home =()=>{
    return(
      <div className=" homePage">
-        <Link to="/">Home</Link>
-        <Link to="/blogs">Blogs |</Link>
+       <header>
+         React Project
+         <Link to="/blogs">Blog</Link>
+         <Link to="/">Home |</Link>
+        </header>
      </div>
    )
  }

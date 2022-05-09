@@ -1,4 +1,4 @@
-import React from "react"
+ import React from "react"
 import "./style"
 import {useState} from 'react'
 const Search =()=>{
@@ -8,7 +8,7 @@ const Search =()=>{
   }
   return(
     <div className="searchBlog">
-      <input type="text" value={placeholder}
+      <input type="text" placeholder={placeholder}
       onChange={e=>setPlaceholder(e.target.value)} />
       <button onClick ={handleSearch }>search</button>
         

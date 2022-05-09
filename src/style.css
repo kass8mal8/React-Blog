@@ -15,14 +15,17 @@ p {
    border: 1px solid gray;
    border-radius: 3px;
    height:30px;
+   margin-top: 50px;
+   width: 75vw;
 }
 .searchBlog button{
-  color: whitesmoke;
-  border: 1px solid royalblue;
+   color: whitesmoke;
+   border: 1px solid royalblue;
    border-radius: 3px;
    height: 34px;
    background: royalblue;
    margin-left: -4px;
+   margin-top: 50px;
 }
 .blogPreview button{
   background: crimson;
@@ -38,17 +41,18 @@ p {
 }
 a{
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 3px;
   color: whitesmoke;
   float: right;
   position: relative;
-  right: 6px;
+  right: 10px;
 }
-.homePage{
+.homePage header{
     background: royalblue;
     width: 100vw;
     height:5vh;
     margin-left: -10px;
     padding: 10px;
     margin-top: -10px;
+    position: fixed;
 }
