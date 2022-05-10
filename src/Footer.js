@@ -11,7 +11,7 @@ const Footer=()=>{
        </p>
      </div>
      <div className="contactDiv" >
-        <p>contact me</p>
+        <p>contact me:</p>
         <small>
          <FontAwesomeIcon icon={faLinkedin}className="linkedin"></FontAwesomeIcon>
              LinkedIn </small>

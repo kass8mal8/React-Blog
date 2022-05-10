@@ -62,9 +62,10 @@ a{
     margin-bottom: -10px;
     margin-top: -20px;
 }
-.footerDiv small{
+.footerDiv small, p{
   display: flex;
   margin:5px 4px;
+  padding-left: 5px;
 }
 .linkedin,.facebook{
    color:darkblue;
@@ -78,6 +79,7 @@ a{
 }
 .regardsDiv p{
   padding-top: 10px;
+  padding-left: 5px;
 }
 
 @media screen and (min-width:420px){
