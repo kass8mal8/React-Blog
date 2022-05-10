@@ -2,7 +2,6 @@ import React from 'react'
 import "./style"
 const BlogList=({blogs, handleDelete} )=>{
   
-  const image=" https://wallpaperaccess.com/full/3949102.jpg" 
 
 
 
