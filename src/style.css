@@ -72,6 +72,12 @@ a{
   font-family: fantasy;
   padding-bottom: 20px;
 }
+.footerDiv{
+    background-color: slategrey;
+    width:100vw;
+    height:60vh;
+    margin: auto -8px;
+}
 @media screen and (min-width:420px){
      .searchBlog input{
         width: 81vw;
