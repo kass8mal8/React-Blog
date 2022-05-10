@@ -66,6 +66,16 @@ a{
   display: flex;
   margin:5px 4px;
 }
+.linkedin,.facebook{
+   color:darkblue;
+   margin-top: 2px;
+   margin-right: 5px;
+}
+.whatsapp{
+  color:darkgreen;
+  margin-top: 3px;
+  margin-right: 5px;
+}
 
 @media screen and (min-width:420px){
      

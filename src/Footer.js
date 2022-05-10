@@ -9,13 +9,13 @@ const Footer=()=>{
      <div className="contactDiv" >
         <p>contact me</p>
         <small>
-         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+         <FontAwesomeIcon icon={faLinkedin}className="linkedin"></FontAwesomeIcon>
              LinkedIn </small>
         <small>
-          <FontAwesomeIcon icon={faFacebookSquare}></FontAwesomeIcon>Facebook
+          <FontAwesomeIcon icon={faFacebookSquare}className="facebook"></FontAwesomeIcon>Facebook
         </small>
         <small>
-          <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>whatsApp
+          <FontAwesomeIcon icon={faWhatsapp}className="whatsapp"></FontAwesomeIcon>whatsApp
         </small>
       </div> 
 
