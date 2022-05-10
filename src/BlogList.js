@@ -10,7 +10,7 @@ const BlogList=({blogs, handleDelete} )=>{
       (
         <div className="blogPreview" key={blog.id}>
             <div className="imageDiv">
-              <img src={image} alt="web" width="320"/>
+              <img src={image} alt="web" width="290"/>
             </div>
             <h3>{blog.title}</h3>
             <p>written on: {blog.date}</p>

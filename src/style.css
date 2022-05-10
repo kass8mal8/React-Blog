@@ -72,4 +72,7 @@ a{
      .searchBlog input{
         width: 81vw;
      }
+     .imageDiv img{
+          width:310px;
+     }
 }
