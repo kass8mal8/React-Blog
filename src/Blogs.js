@@ -1,6 +1,5 @@
 import React from "react"
 import BlogList from "./BlogList"
-import Search from "./Search"
 import {useState}  from  'react'
 
 const Blogs=()=>{
@@ -18,7 +17,6 @@ const Blogs=()=>{
   }
   return (
     <div>
-      <Search />
       <BlogList blogs={blogs} handleDelete={handleDelete} />
     </div>
   )

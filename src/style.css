@@ -7,26 +7,7 @@ body{
   padding:4px;
   margin: 7px auto;
   border-radius: 3px;
-}
-.searchBlog input{
-   outline: none;
-   border: 1px solid lightslategray;
-   border-radius: 3px;
-   height:30px;
-   margin-top: 10px;
-   width: 77%;
-}
-.searchBlog button{
-   color: whitesmoke;
-   border: 1px solid slategray;
-   border-top-right-radius: 3px;
-   border-bottom-right-radius: 3px;
-   height: 34px;
-   background:slategray;
-   margin-left: -4px;
-   margin-top: 10px;
-   width:65px;
-}
+} 
 .blogPreview button{
   background: crimson;
   outline: none;
