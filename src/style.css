@@ -2,7 +2,7 @@
 .blogPreview{
   border: 1px solid #ccc;
   background:#ccc;
-  padding:6px;
+  padding:8px;
   margin: 10px -8px;
   
 } 
@@ -59,6 +59,7 @@ a{
     height:60vh;
     margin-right: -10px;
     margin-left:-8px;
+    margin-bottom: -110px;
 }
 @media screen and (min-width:420px){
      
