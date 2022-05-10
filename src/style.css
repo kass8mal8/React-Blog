@@ -1,4 +1,4 @@
-
+ 
 .blogPreview{
   border: 1px solid #ccc;
   background:#ccc;
@@ -12,7 +12,7 @@
   border:1px solid crimson;
   color:whitesmoke;
   height: 25px;
-  border-radius: 3px;
+  border-radius: px;
   margin:5px auto; 
 }
 .addBlog button{
@@ -59,8 +59,14 @@ a{
     height:60vh;
     margin-right: -10px;
     margin-left:-8px;
-    margin-bottom: -110px;
+    margin-bottom: -10px;
+    margin-top: -20px;
 }
+.footerDiv small{
+  display: flex;
+  margin:5px 4px;
+}
+
 @media screen and (min-width:420px){
      
 }
