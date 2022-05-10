@@ -61,6 +61,9 @@ a{
   display:flex;
   flex-flow: row;
 }
+.imageDiv img{
+  width:100%;
+}
 .homeDiv{
   background:#ccc;
   padding:5px;
@@ -72,7 +75,5 @@ a{
      .searchBlog input{
         width: 81vw;
      }
-     .imageDiv img{
-          width:413px;
-     }
+     
 }
