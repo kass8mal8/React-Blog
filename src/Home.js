@@ -1,6 +1,6 @@
 import React, {Link} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMugHot } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 const Home=()=>{
   
   return(
@@ -15,7 +15,7 @@ const Home=()=>{
          I previously made some projects but I'd not coded them in React.This is the first in React, hope it's awesome. 
        </p>
       
-       <FontAwesomeIcon />
+       <FontAwesomeIcon icon={faYoutube} ></FontAwesomeIcon>
     </div>
   )
 }
