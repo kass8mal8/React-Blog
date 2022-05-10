@@ -12,7 +12,7 @@
    border-radius: 3px;
    height:30px;
    margin-top: 10px;
-   width: 73vw;
+   width: 77%;
 }
 .searchBlog button{
    color: whitesmoke;
@@ -23,6 +23,7 @@
    background:slategray;
    margin-left: -4px;
    margin-top: 10px;
+   width:65px;
 }
 .blogPreview button{
   background: crimson;
@@ -74,6 +75,9 @@ a{
 @media screen and (min-width:420px){
      .searchBlog input{
         width: 81vw;
+     }
+     .searchBlog button{
+       width: 55px;
      }
      
 }
