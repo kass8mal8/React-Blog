@@ -1,7 +1,9 @@
-
-.blogPreview{
-  border: 1px solid #ccc;
+body{
   background: #ccc;
+}
+.blogPreview{
+  border: 1px solid slategrey;
+  background:lightslategrey;
   padding:4px;
   margin: 7px auto;
   border-radius: 3px;
@@ -51,7 +53,7 @@ a{
     background:slategray;
     width: 100%;
     height:7vh;
-    margin-left: -10px;
+    margin-left: -8px;
     padding: 10px;
     margin-top: -8px;
     position:relative;
@@ -68,15 +70,16 @@ a{
 .homeDiv{
   background:#ccc;
   padding:5px;
-  margin: auto -8px;
+  margin-left:-8px;
+  margin-right: -10px;
   font-family: fantasy;
   padding-bottom: 20px;
 }
 .footerDiv{
     background-color: slategrey;
-    width:100vw;
     height:60vh;
-    margin:auto -8px;
+    margin-right: -10px;
+    margin-left:-8px;
 }
 @media screen and (min-width:420px){
      .searchBlog input{
