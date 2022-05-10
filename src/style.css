@@ -61,11 +61,5 @@ a{
     margin-left:-8px;
 }
 @media screen and (min-width:420px){
-     .searchBlog input{
-        width: 81vw;
-     }
-     .searchBlog button{
-       width: 55px;
-     }
      
 }
