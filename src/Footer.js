@@ -7,7 +7,7 @@ const Footer=()=>{
     <div className="footerDiv">
      <div className="regardsDiv">
        <p>
-           Regards to Net Ninja for his awesome tutorial in YouTube and all of those who made my Reacts journey possible. 
+           Regards to Net Ninja YouTube Tutorial and all of those who made my Reacts journey possible. 
        </p>
      </div>
      <div className="contactDiv" >
