@@ -7,9 +7,9 @@ const Footer=()=>{
   return(
     <div className="footerDiv">
      <div className="regardsDiv">
-       <small>
-           Regards to Net Ninja for his awesome tutorial from Youtube
-       </small>
+       <p>
+           Regards to Net Ninja for his awesome tutorial in YouTube and all of those who made my Reacts journey possible. 
+       </p>
      </div>
      <div className="contactDiv" >
         <p>contact me</p>

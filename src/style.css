@@ -76,6 +76,9 @@ a{
   margin-top: 3px;
   margin-right: 5px;
 }
+.regardsDiv p{
+  padding-top: 10px;
+}
 
 @media screen and (min-width:420px){
      
