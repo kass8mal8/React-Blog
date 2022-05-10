@@ -4,7 +4,7 @@ import {useState}  from  'react'
 
 const Blogs=()=>{
   const [blogs, setBlogs] =useState ([
-    {title:"Day 1:Youtube Videos ",date:"1/4/2022",id:1, src:"https://cdn.fs.teachablecdn.com/u8LFsjeERwyHlzyIg4w0"},
+    {title:"Day 1:Youtube Videos ",date:"1/4/2022",id:1, src:" https://i.ytimg.com/vi/AVQzfUNFudU/maxresdefault.jpg"},
     {title:"Day 2:Sololearn Tutorials ",date:"4/4/2022",id:2, src:" https://lh3.googleusercontent.com/z14s2j2Go8JeSVSwgax-GsCeVXTrMjGoPKX1KIJz-b1dJyegOmdj5t6kXoy-PRqOoKA=h1264"},
     {title:"Day 3:Pdf Tutorials",date:"8/4/2022",id:3, src:" https://i.ytimg.com/vi/vrRJor7R66A/maxresdefault.jpg"},
     {title:"Day 4:React Project Start",date:"10/4/2022",id:4, src:"https://wallpaperaccess.com/full/3949102.jpg "},
