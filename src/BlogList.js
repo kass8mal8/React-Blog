@@ -2,7 +2,7 @@ import React from 'react'
 import "./style"
 const BlogList=({blogs, handleDelete} )=>{
   
-  const image="https://www.whatlaptops.com/wp-content/uploads/2020/09/How-Many-Watts-Does-a-Laptop-Use-When-Charging-1-780x470.jpg" 
+  const image="https://www.whatlaptops.com/wp-content/uploads/2020/09/How-Many-Watts-Does-a-Laptop-Use-When-Charging-1-780x470.jpg " 
 
 
 
