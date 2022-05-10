@@ -1,12 +1,10 @@
-body{
-  background: #ccc;
-}
+
 .blogPreview{
-  border: 1px solid slategrey;
-  background:lightslategrey;
-  padding:4px;
-  margin: 7px auto;
-  border-radius: 3px;
+  border: 1px solid #ccc;
+  background:#ccc;
+  padding:6px;
+  margin: 10px -8px;
+  
 } 
 .blogPreview button{
   background: crimson;
