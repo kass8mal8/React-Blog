@@ -6,6 +6,11 @@ import React from "react"
 const Footer=()=>{
   return(
     <div className="footerDiv">
+     <div className="regardsDiv">
+       <small>
+           Regards to Net Ninja for his awesome tutorial from Youtube
+       </small>
+     </div>
      <div className="contactDiv" >
         <p>contact me</p>
         <small>
