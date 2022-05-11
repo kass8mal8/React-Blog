@@ -4,7 +4,7 @@
   background:#ccc;
   padding:8px;
   margin: 10px -8px;
-  
+
 } 
 .blogPreview button{
   background: crimson;
@@ -53,10 +53,11 @@ a{
   margin-right: -10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding-bottom: 20px;
+  height: 60vh;
 }
 .footerDiv{
     background-color: slategrey;
-    height:60vh;
+    height:30vh;
     margin-right: -10px;
     margin-left:-8px;
     margin-bottom: -10px;
