@@ -17,9 +17,12 @@ const Blogs=()=>{
     const remBlogs=blogs.filter(blog=> blog.id !== id)
     setBlogs(remBlogs)
   }
+  const handleClick=()=>{
+
+  }
   return (
     <div>
-      <BlogList blogs={blogs} handleDelete={handleDelete} />
+      <BlogList blogs={blogs} handleDelete={handleDelete} handleClick={handleClick} />
     </div>
   )
 }

@@ -8,7 +8,8 @@
        <header>
         React-Blog
          <Link to="/blogs">Blog</Link>
-         <Link to="/">Home |</Link>
+         
+         <Link to="/">Home | </Link>
         </header>
   
      </div>

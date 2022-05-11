@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style"
-const BlogList=({blogs, handleDelete} )=>{
+const BlogList=({blogs, handleDelete, handleClick} )=>{
   
 
 
@@ -9,7 +9,7 @@ const BlogList=({blogs, handleDelete} )=>{
     <div>
       {blogs.map(blog=>
       (
-        <div className="blogPreview" key={blog.id}>
+        <div onClick={handleClick} className="blogPreview" key={blog.id}>
           
             <div className="imageDiv">
                    <img src={blog.src} alt="illustration" width=""/>
