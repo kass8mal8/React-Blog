@@ -6,6 +6,9 @@
   margin: 10px -8px;
 
 } 
+.blogPreview img{
+  border-radius:5px;
+}
 .blogPreview button{
   background: crimson;
   outline: none;
