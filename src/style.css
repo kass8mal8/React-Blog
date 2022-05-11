@@ -39,10 +39,6 @@ a{
     font-weight: bold;
   
 }
-.imageDiv{
-  display:flex;
-  flex-flow: row;
-}
 .imageDiv img{
   width:100%;
 }
@@ -86,5 +82,14 @@ a{
 }
 
 @media screen and (min-width:420px){
-     
+     .imageDiv {
+       display: flex;
+       width:60%;
+       flex-flow: row;
+     }
+     .imageDiv h3{
+       padding-left: 10px;
+       display:flex;
+       flex-flow: column;
+     }
 }

@@ -17,11 +17,12 @@ const BlogList=({blogs, handleDelete} )=>{
           
             <div className="imageDiv">
                    <img src={blog.src} alt="illustration" width=""/>
+                   <h3>{blog.title}</h3>
+            <p>written on: {blog.date}</p>
+            
             </div>
               
         
-            <h3>{blog.title}</h3>
-            <p>written on: {blog.date}</p>
             <button onClick ={()=>handleDelete(blog.id)}>delete blog</button>
         </div>
       )
