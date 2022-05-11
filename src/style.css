@@ -53,7 +53,7 @@ a{
 }
 .footerDiv{
     background-color: slategrey;
-    height:30vh;
+    height:40vh;
     margin-right: -10px;
     margin-left:-8px;
     margin-bottom: -10px;
@@ -82,14 +82,5 @@ a{
 }
 
 @media screen and (min-width:420px){
-     .imageDiv {
-       display: flex;
-       width:60%;
-       flex-flow: row;
-     }
-     .imageDiv h3{
-       padding-left: 10px;
-       display:flex;
-       flex-flow: column;
-     }
+
 }
