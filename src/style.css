@@ -14,8 +14,8 @@
   outline: none;
   border:1px solid crimson;
   color:whitesmoke;
-  height: 25px;
-  border-radius: px;
+  height: 30px;
+  border-radius: 3px;
   margin:5px auto; 
 }
 .addBlog button{
