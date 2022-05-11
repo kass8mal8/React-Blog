@@ -9,7 +9,7 @@ const BlogList=({blogs, handleDelete} )=>{
       (
         <div onClick={(id)=>  { 
           if (blog.id === id) {
-              (<div className="blogDetails" key={blog.id}>
+             return (<div className="blogDetails" key={blog.id}>
                  <p>{blog.body} </p>   
               </div>)}
          } 
