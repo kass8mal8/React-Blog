@@ -56,7 +56,7 @@ a{
 }
 .footerDiv{
     background-color: slategrey;
-    height:40vh;
+    height:auto;
     margin-right: -10px;
     margin-left:-8px;
     margin-bottom: -10px;

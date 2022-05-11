@@ -7,7 +7,7 @@ const Footer=()=>{
     <div className="footerDiv">
      <div className="regardsDiv">
        <p>
-           Regards to Net Ninja YouTube Tutorial and all of those who made my Reacts journey possible. 
+           Regards to Net Ninja YouTube Tutorial and all of those who made my React journey possible. 
        </p>
      </div>
      <div className="contactDiv" >
@@ -21,6 +21,8 @@ const Footer=()=>{
         <small>
           <FontAwesomeIcon icon={faWhatsapp}className="whatsapp"></FontAwesomeIcon>whatsApp
         </small>
+        <small>copyright | Frontend Dev Kassim</small>
+
       </div> 
 
     </div>
