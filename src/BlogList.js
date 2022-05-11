@@ -1,17 +1,19 @@
 import React from 'react'
 import "./style"
 const BlogList=({blogs, handleDelete} )=>{
-  
-const handleClick=()=>{
-  
-}
 
 
   return(
     <div>
       {blogs.map(blog=>
       (
-        <div onClick={handleClick} className="blogPreview" key={blog.id}>
+        <div onClick={(id)=>  { 
+          if (blog.id === id) {
+              (<div className="blogDetails" key={blog.id}>
+                 <p>{blog.body} </p>   
+              </div>)}
+         } 
+        } className="blogPreview" key={blog.id}>
           
             <div className="imageDiv">
                    <img src={blog.src} alt="illustration" width=""/>
