@@ -82,5 +82,19 @@ a{
 }
 
 @media screen and (min-width:420px){
-
+      .flexDiv{
+      
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: -5px;
+      }
+      .blogPreview{
+        margin: 5px;
+        width: 96%;
+  
+      }
+      
+      body{
+        background: #ccc;
+      }
 }

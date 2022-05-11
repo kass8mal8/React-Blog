@@ -4,7 +4,7 @@ const BlogList=({blogs, handleDelete} )=>{
 
 
   return(
-    <div>
+    <div className="flexDiv">
       {blogs.map(blog=>
       (
         <div onClick={(id)=>  { 
