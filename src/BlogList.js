@@ -2,7 +2,9 @@ import React from 'react'
 import "./style"
 const BlogList=({blogs, handleDelete} )=>{
   
-
+const handleClick=()=>{
+  
+}
 
 
   return(
