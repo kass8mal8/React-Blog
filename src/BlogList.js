@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style"
-const BlogList=({blogs, handleDelete, handleClick} )=>{
+const BlogList=({blogs, handleDelete} )=>{
   
 
 
