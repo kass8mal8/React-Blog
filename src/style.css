@@ -22,7 +22,7 @@
   float:right;
   margin-top: -33px;
 }
-a{
+.homePage a{
   text-decoration: none;
   margin-left: 10px;
   color:black;
@@ -30,6 +30,10 @@ a{
   right: 3px;
   margin-top: 0px;
   position: relative;
+}
+.footerDiv a{
+  text-decoration: none;
+  color: black;
 }
 .homePage header{
     background:slategray;

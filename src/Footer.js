@@ -13,8 +13,8 @@ const Footer=()=>{
      <div className="contactDiv" >
         <p>developer contact:</p>
         <small>
-         <FontAwesomeIcon icon={faLinkedin}className="linkedin"></FontAwesomeIcon>
-             LinkedIn </small>
+         <FontAwesomeIcon icon={faLinkedin}className="linkedin"></FontAwesomeIcon><a href="https://www.linkedin.com/in/kassim-ali-770116230 ">
+             LinkedIn</a> </small>
         <small>
           <FontAwesomeIcon icon={faFacebookSquare}className="facebook"></FontAwesomeIcon>Facebook
         </small>
