@@ -59,15 +59,15 @@ body{
   margin-left:-8px;
   margin-right: -10px;
   padding-bottom: 20px;
-  height: 70vh;
 }
 .footerDiv{
+    position: absolute;
     background-color: slategrey;
-    height:auto;
+    height:15%;
     margin-right: -10px;
     margin-left:-8px;
-    margin-bottom: -10px;
-    margin-top: -20px;
+    bottom: 0px;
+    width: 100%;
 }
 .contactDiv p{
   margin:5px 4px;

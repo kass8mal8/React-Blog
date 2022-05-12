@@ -1,5 +1,6 @@
 import React, {Link} from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Footer from "./Footer"
 const Home=()=>{
   
   return(
@@ -13,7 +14,7 @@ const Home=()=>{
        <p>
          I previously made some projects but I'd not coded them in React.This is the first in React, hope it's awesome. 
        </p>
-      
+      <Footer /> 
 
     </div>
   )

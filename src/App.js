@@ -4,7 +4,7 @@ import Home from "./Home"
 import Blogs from "./Blogs";
 import {BrowserRouter,Routes, Route } from "react-router-dom"
 import Header from "./Header";
-import Footer from "./Footer";
+
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
          <Route path="/" element={<Home />}/>
          <Route path="/blogs" element={ <Blogs />} />
        </Routes>
-       <Footer />
+  
     </BrowserRouter>
     </div>
   );
