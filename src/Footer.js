@@ -5,13 +5,8 @@ import React from "react"
 const Footer=()=>{
   return(
     <div className="footerDiv">
-     <div className="regardsDiv">
-       <p>
-           Regards to Net Ninja YouTube Tutorial and all of those who made my React journey possible. 
-       </p>
-     </div>
+
      <div className="contactDiv" >
-        <p>developer contact:</p>
         <small>
          <FontAwesomeIcon icon={faLinkedin}className="linkedin"></FontAwesomeIcon><a href="https://www.linkedin.com/in/kassim-ali-770116230 ">
              LinkedIn</a> </small>
@@ -19,7 +14,7 @@ const Footer=()=>{
           <FontAwesomeIcon icon={faFacebookSquare}className="facebook"></FontAwesomeIcon>Facebook
         </small>
         <small>
-          <FontAwesomeIcon icon={faWhatsapp}className="whatsapp"></FontAwesomeIcon>whatsApp
+          <FontAwesomeIcon icon={faWhatsapp}className="whatsapp"></FontAwesomeIcon>+254 111 555 294
         </small>
         <small>copyright | Frontend Dev Kassim</small>
       </div> 
