@@ -11,6 +11,9 @@ body{
 .blogPreview img{
   border-radius:5px;
 }
+.blogPreview p{
+  margin-top: -1px;
+}
 .blogPreview button{
   background: crimson;
   outline: none;
